@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="411.0" prefWidth="351.0" styleClass="bodybg3" stylesheets="@../CSS/Background.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SobreController">
+   <children>
+      <Pane prefHeight="36.0" prefWidth="351.0" style="-fx-background-color: #B22222;">
+         <children>
+            <Text fill="WHITE" layoutX="149.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SOBRE">
+               <font>
+                  <Font name="HP Simplified" size="19.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Text fill="WHITE" layoutX="18.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Uma simples aplicação desenvolvida em Java com o intuito de aprimorar meus estudos, além disso, contribuir com a sociedade, devido à pandemia do Coronavírus (COVID-19) que está acontecendo atualmente em diversos países." textAlignment="JUSTIFY" wrappingWidth="315.64453125">
+         <font>
+            <Font name="HP Simplified" size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnVoltar" layoutX="278.0" layoutY="338.0" mnemonicParsing="false" onAction="#btnVoltar_Click" text="Voltar">
+         <font>
+            <Font name="HP Simplified" size="15.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="18.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fontes de pesquisas para auxílio do desenvolvimento da aplicação retirada dos respectivos sites:" textAlignment="JUSTIFY" wrappingWidth="306.0">
+         <font>
+            <Font name="HP Simplified" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="23.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="• https://coronavirus.saude.gov.br/">
+         <font>
+            <Font name="HP Simplified" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="23.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="• https://saude.abril.com.br/">
+         <font>
+            <Font name="HP Simplified" size="15.0" />
+         </font>
+      </Text>
+      <Pane layoutY="379.0" prefHeight="36.0" prefWidth="351.0" style="-fx-background-color: #B22222;">
+         <children>
+            <Text fill="WHITE" layoutX="76.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lucas Leandro Lima Dantas - 2020">
+               <font>
+                  <Font name="HP Simplified" size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
