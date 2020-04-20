@@ -42,4 +42,6 @@ Lucas Leandro Lima Dantas
 • Java <br/>
 • Netbeans IDE 8.2 <br/>
 • SceneBuilder <br/>
-• Git
+• Git <br/>
+• Biblioteca: JavaFX
+
